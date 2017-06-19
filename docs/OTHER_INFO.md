@@ -143,7 +143,7 @@ Luckily, you could easy split Scenes using NodeJS built-in require calls:
 scenesForTabBar.js:
 ```jsx
 import React from 'react-native';
-import {Scene} from 'react-native-router-flux';
+import {Scene} from '@cross2d/react-native-router-flux';
 
 module.exports = <Scene key="tabbar" tabs={true}>
    // scenes here
@@ -158,7 +158,7 @@ With DefaultRenderer you may build own drawer 'renderer' that transforms current
 import React from 'react-native';
 import Drawer from 'react-native-drawer';
 import SideMenu from './SideMenu';
-import {Actions, DefaultRenderer} from 'react-native-router-flux';
+import {Actions, DefaultRenderer} from '@cross2d/react-native-router-flux';
 
 export default class NavigationDrawer extends Component {
     render(){

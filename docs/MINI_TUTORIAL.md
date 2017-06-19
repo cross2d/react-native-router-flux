@@ -11,7 +11,7 @@ In this super simple example, we will just have three files:
 ### index.js
 ```jsx
 import React, { Component } from 'react';
-import { Router, Scene } from 'react-native-router-flux';
+import { Router, Scene } from '@cross2d/react-native-router-flux';
 
 import PageOne from './PageOne';
 import PageTwo from './PageTwo';
@@ -46,7 +46,7 @@ Note that the first scene we wish to load has the prop `initial={true}` to indic
 ```jsx
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
-import { Actions } from 'react-native-router-flux';
+import { Actions } from '@cross2d/react-native-router-flux';
 
 export default class PageOne extends Component {
   render() {

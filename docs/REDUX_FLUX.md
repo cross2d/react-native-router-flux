@@ -18,7 +18,7 @@ First create a reducer for the routing actions that will be dispatched by RNRF.
 ```javascript
 // reducers/routes.js
 
-import { ActionConst } from 'react-native-router-flux';
+import { ActionConst } from '@cross2d/react-native-router-flux';
 
 const initialState = {
   scene: {},
@@ -68,7 +68,7 @@ Create your store, wrap your routes with the redux `Provider` component and conn
 // app.js
 
 import React, { Component } from 'react';
-import { Router } from 'react-native-router-flux';
+import { Router } from '@cross2d/react-native-router-flux';
 import { connect, Provider } from 'react-redux';
 import { createStore, applyMiddleware, compose } from 'redux';
 
@@ -173,7 +173,7 @@ import {
     Router,
     Scene,
     Actions,
-} from 'react-native-router-flux';
+} from '@cross2d/react-native-router-flux';
 
 
 // --- child component can connect and listen to props they want.
